@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: #9FA4F2;
+}
+#clock{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #658D92;
+    width: 50vh;
+    height: 5vh;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Poor Story', cursive;
+    font-size: 1.3em;
+    cursor: default;
+}
+#page{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    width: 50vh;
+    height: 50vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.header{
+    margin-bottom: 10px;
+}
+.header h2{
+    text-align: center;
+    cursor: default;
+}
+.to-do-list-add{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    width: 330px;
+}
+#to-do{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 275px;
+    cursor: default;
+}
+.to-do-btn{
+    width: 50px;
+    height: 25px;
+    background-color: #3E2996;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    cursor: default;
+}
+.to-do-list{
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 10px;
+    max-height: 280px;
+    overflow: auto;
+}
+.to-do-list-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: default;
+}
+.to-do-list-content{
+    font-family: 'Dongle', sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Poor Story', cursive;
+    font-size: 1.5em;
+}
+.to-do-list-remove{
+    width: 100px;
+    text-align: end;
+    color: red;
+}
