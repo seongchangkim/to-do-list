@@ -17,9 +17,7 @@ body{
     height: 5vh;
     text-align: center;
     color: #ffffff;
-    font-family: 'Dongle', sans-serif;
-    font-family: 'Nanum Pen Script', cursive;
-    font-family: 'Poor Story', cursive;
+    font-family: 'Poor Story';
     font-size: 1.3em;
     cursor: default;
 }
@@ -78,9 +76,7 @@ body{
     cursor: default;
 }
 .to-do-list-content{
-    font-family: 'Dongle', sans-serif;
-    font-family: 'Nanum Pen Script', cursive;
-    font-family: 'Poor Story', cursive;
+    font-family: 'Poor Story';
     font-size: 1.5em;
 }
 .to-do-list-remove{
