@@ -29,7 +29,7 @@ setInterval(() => {
     const day = lDate.getDate();
     const fullDay = fullDayArr[lDate.getDay()];
 
-    const hours = lDate.getHours() >= 12 ? String(lDate.getHours()-12) : String(lDate.getHours());
+    const hours = lDate.getHours() > 12 ? String(lDate.getHours()-12) : String(lDate.getHours());
     const minutes = String(lDate.getMinutes());
     const seconds = String(lDate.getSeconds());
     const ampm = lDate.getHours() >= 12 ? '오후' : '오전';
