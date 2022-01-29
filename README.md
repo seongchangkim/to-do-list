@@ -3,7 +3,7 @@
 ## 포트폴리오 소개
 ![toDoList 메인페이지](https://user-images.githubusercontent.com/74657556/151655598-3e691362-ea87-42f2-93b2-ba17ac902f12.PNG)
 
-한 일을 추가하여 삭제까지 할 수 있는 웹 애플리케이션입니다.
+한 일을 추가하여 삭제까지 할 수 있고 시계 기능이 있는 웹 애플리케이션입니다.
 
 <br>
 ● 호스팅: https://seongchangkim.github.io/to-do-list/
